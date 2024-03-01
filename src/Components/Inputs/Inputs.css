@@ -1,0 +1,8 @@
+.input {
+    @apply w-full py-1 bg-transparent border-b border-primary-dark transition-colors duration-300;
+    @apply focus-visible:outline-none focus-visible:border-b focus-visible:border-success;
+}
+
+input[type="radio"] {
+    @apply accent-success cursor-pointer;
+}
